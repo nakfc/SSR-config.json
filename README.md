@@ -1,5 +1,7 @@
 # GCP
-允许0.0.0.0/0通过端口流量9000
+允许任意位置的9000端口流量
+IP:0.0.0.0/0
+协议与端口:tcp:9000
 
 # VPS
 - prepare
@@ -21,4 +23,6 @@ docker run -d -p 9000:9000 -p 9000:9000/udp --name ssr -v /etc/shadowsocks-r:/et
 docker ps -l
 docker restart ssr
 </pre></code>
+
 # SSR
+TJ
