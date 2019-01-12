@@ -8,7 +8,7 @@ sudo su
 ufw disable
 apt-get remove iptables
 cd /etc/
-mddir shadowsocks-r
+mkdir shadowsocks-r
 cd shadowsocks-r
 wget https://raw.githubusercontent.com/nakfc/SSR-config.json/master/config.json
 </pre></code>
